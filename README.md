@@ -1,6 +1,5 @@
 # TRIMUI Rumble Wrapper
-SDL2 rumble wrapper that redirects haptic feedback to GPIO pin 227 on TRIMUI devices.
-
+SDL2 rumble wrapper that redirects haptic feedback to a GPIO pin.
 ## What it does
 Intercepts SDL2 rumble calls and triggers a GPIO pin instead of controller rumble. Should work with RetroArch, and any other SDL2 input application.
 
